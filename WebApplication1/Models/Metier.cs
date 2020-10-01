@@ -6,6 +6,7 @@ namespace WebApplication1.Models
     [Table("Metiers")]
     public class Metier
     {
+        [primary Key]
         public int ID { get; set; }
         [Required, MaxLength(255)]
         public string Title { get; set; }
